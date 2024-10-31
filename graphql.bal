@@ -6,10 +6,12 @@ service /graphql on new graphql:Listener(9090) {
     }
 
     resource function get authors() returns Author[] {
-       return authors; 
+        return authors;
     }
 
     resource function get genres() returns Genre[] {
         return genres;
     }
+
 }
+
