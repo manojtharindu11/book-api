@@ -18,13 +18,21 @@ type Genre record {
     string name;
 };
 
+// sample data
 final Book[] books = [
-{id: 1, title: "GraphQL Essentials", authorId: 1, genreId: 1,
-publishedDate: "2024-01-01", price: 29.99}
+    {
+        id: 1,
+        title: "GraphQL Essentials",
+        authorId: 1,
+        genreId: 1,
+        publishedDate: "2024-01-01",
+        price: 29.99
+    }
 ];
 final Author[] authors = [
-{id: 1, name: "John Doe", bio: "Author of GraphQL Essentials"}
+    {id: 1, name: "John Doe", bio: "Author of GraphQL Essentials"}
 ];
 final Genre[] genres = [
-{id: 1, name: "Technology"}
+    {id: 1, name: "Technology"}
 ];
+
